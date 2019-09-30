@@ -1,0 +1,23 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-5 col-sm-3 mx-auto">
+        <div class="card my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Bienvenido</h5>
+            <input type="email" [(ngModel)]="username" class="form-control" placeholder="Email" required autofocus>
+            <input type="password" [(ngModel)]="pass" class="form-control" placeholder="Contraseña" required autofocus>
+            <div class="custom-control custom-checkbox mb-3">
+              <input type="checkbox" class="custom-control-input" id="customCheck1">
+              <label class="custom-control-label" form="customCheck1">Recordar Contraseña</label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" (click)="login()" type="submit">Iniciar
+              Sesión</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<router-outlet></router-outlet>

@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  basePath: 'https://proyectoelectiva.herokuapp.com/',
+  //basePath:'http://localhost:3000/',
+  dataBase: 'proyectoApiRest'
 };
 
 /*

@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'APIANGULAR';
+  title = 'servicios'
+  public username: "";
+  public pass: "";
+
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }
+
+
